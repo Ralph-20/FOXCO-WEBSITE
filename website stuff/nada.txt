@@ -1,0 +1,99 @@
+<style>
+    img {
+        width: 300px;
+        border-radius: 50px;
+        float: middle;
+        margin-right: 10px;
+    }
+
+    .companyname {
+        font-weight: bold;
+    }
+</style>
+
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.nav-wrapper header {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 50px;
+  font-size: 1.1 em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+  display: inline-block;
+  padding-bottom: 0%;
+  margin: 0;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+
+
+////// header 
+
+
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <div class="nav-wrapper header">
+                <div class="nav-link-wrapper">
+                    <a href="index.html"> Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="projects.html"> Projects</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html"> About</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="contact.html"> Contact</a>
+                </div>
+            </div>
+        </nav>
+        <h1 class="companyname comp-name-large">FoxCo</h1>
+    </header>
+
+
+
+    ////
+
+
+
+
+       <div class="nav-wrapper header">
+                <div class="nav-link-wrapper">
+                    <a href="index.html"> Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="projects.html"> Projects</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html"> About</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="contact.html"> Contact</a>
+                </div>
+            </div>
