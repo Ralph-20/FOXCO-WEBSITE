@@ -1,3 +1,7 @@
+
+
+/* general styling */
+
 html, body {
   background-color: white;
   padding: 0;
@@ -9,12 +13,19 @@ html, body {
   color:#777 ;
 }
 
+/* header */
+
+
 .main-header {
   background-color: white;
   padding-bottom: 30px;
   margin: 0;
   padding: 0;
 }
+
+
+/* nav */
+
 
 .nav ul {
   margin: 0;
@@ -50,8 +61,10 @@ html, body {
 }
 
 
+/* company name */
 
-.companyname {
+
+.comp-name-large {
   position: relative;
   top: -25px;
   text-align: center;
@@ -63,3 +76,225 @@ html, body {
   color: rgb(63, 61, 61);
 }
 /* come back and change font */
+
+
+/* content */
+
+
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: 'Supermercado One', cursive;
+  font-weight:lighter;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.about-section {
+  
+}
+
+
+
+/* Andy face */
+
+.Andy-face {
+
+  max-width: 90%;
+  /* float: left; */
+  margin: 15px;
+  
+}
+
+/* footer */
+
+
+
+.main-footer {
+  display: flex;
+  align-items:flex-end;
+  justify-content: right;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.main-footer img {
+  text-decoration: none;
+  transition: .5s;
+}
+.footer-link {
+  border-radius: 50%;
+}
+
+.main-footer img:hover {
+  transform: scale(1.3);
+}
+
+
+/* contact */
+
+
+
+/* contact input fields */
+
+.about-page-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.contact-container {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box; 
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+/* left side contact us wrapper */
+
+/* .contact-info-wrapper {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+} */
+
+form {
+  width: 400px;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input, 
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid grey;
+  background: transparent;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  cursor: text;
+  transition: .2s;
+}
+
+.submit-button {
+  padding: 10px 0;
+  outline: none;
+  background: transparent;
+  border: 1px solid grey;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+ {
+  top: -35px;
+  font-size: 14px;
+}
+
+/* home page slider */
+
+
+
+/* .slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+
+} */
+
+/* .slide {
+  width: 20%;
+  transition: 2s;
+} */
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;   /* might want to work with this for sizes*/
+  object-fit: scale-down;
+}
+
+.carousel-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: #23e3c9;
+  width: 60%;   
+  height: 600px;               
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+}
+
+
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 2%;
+  font-size: 30px;
+  color: white;
+  opacity: .7;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px #000000;
+  transition: .5s;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 2%;
+  font-size: 30px;
+  color: white;
+  opacity: .7;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px #000000;
+  transition: .5s;
+}
+
+#prevBtn:hover {
+  transform: scale(1.3);
+}
+
+#nextBtn:hover {
+  transform: scale(1.3);
+}
+
+
+
+

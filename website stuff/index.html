@@ -6,6 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9830fa96d3.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,21 +28,37 @@
         <h1 class="companyname comp-name-large">FoxCo</h1>
     </header>
     <!-- body -->
-    <section>
-        
-        <img src ="stock pics/Stock home page image.jpg">
-        
-       
-    </section>
+        <!-- image slider start -->
 
-    <footer>
-        <hr>
-        <h3> FOXCO</h3>
-        <ul class="footer pics">
-            <li><img src ="stock pics/Facebook Logo.png"></li>
-            <li><img src ="stock pics/insta-real.jpg"></li>
-        </ul>
+<div class="carousel-container">
+    <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
+    <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
+    <div class="carousel-slide">
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes.jpeg" id="lastClone">
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes-2.jpeg">
+
+
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes-5.jpeg">
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes-6.jpeg">
+
+
+
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes.jpeg">
+        <img src ="stock pics/Marketing Material/MD Williams/Mark+D.+Williams+Custom+Homes-2.jpeg" id="firstClone">
+    </div>
+</div>
+
+<!-- <button id="prevBtn">Prev</button>
+<button id="nextBtn">Next</button> -->
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <a href="https://www.instagram.com/foxcominnesota/" target="_blank">
+                <img src ="stock pics/insta-real.jpg" class="footer-link">
+            </a>
+        </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

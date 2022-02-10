@@ -19,56 +19,61 @@
         </nav>
         <h1 class="companyname comp-name-large">FoxCo</h1>
     </header>
-    <section>
-        <div>
-            <h3>Contact us</h3>
-            <div> Andy Fox, buisness title here</div>
-            <div>612.363.8764</div>
-            <div>17820 30th Ave N</div>
-            <div>Plymouth, MN 55447</div>
-            <!-- maybe a picture of the location on maps of wherever you'd like? -->
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div>
-                <strong>Name</strong>
-            </div>
-            <span><input type="text"></span>
-            <span><input type="text"></span>
-            
-            <div>
-                <strong>Email Address</strong>
-                <div>
-                    <input type="text">
-                </div>
-            </div>
 
-            <div>
-                <strong>Subject</strong>
-                <div>
-                    <input type="text">
-                </div>
-            </div>
+    <!-- <section class="about-page-wrapper"> -->
 
-            <div>
-                <strong>Message</strong>
-                <div>
-                    <input type="text">
-                </div>
-                <div>
-                    <button role="button"> Submit </button>
-                </div>
+        <!-- <div class="contact-info-wrapper">
+            <div class="contact-info-section">
+                <h3 class="section-header">Contact us</h3>
+                <div> Andy Fox, buisness title here</div>
+                <div>612.363.8764</div>
+                <div>17820 30th Ave N</div>
+                <div>Plymouth, MN 55447</div>
             </div>
+        </div> -->
+
+
+        <div class="contact-container">
+            <form>
+
+                <h2 class="section-header">Contact</h2>
+                <div class="input-group">
+                    <input type="text" id="Name" required>
+                    <label for="">Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="Subject" required>
+                    <label for="Subject">Subject</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="Email" required>
+                    <label for="Email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="Message" rows="8" required></textarea>
+                    <label for="Message">Message</label>
+                </div>
+
+
+                <button type="submit" class="submit-button">Submit </button>
+
+            </form>
         </div>
-    </section>
-    <footer>
-        <hr>
-        <h3> FOXCO</h3>
-        <ul class="footer pics">
-            <li><img src ="stock pics/Facebook Logo.png"></li>
-            <li><img src ="stock pics/insta-real.jpg"></li>
-        </ul>
+
+
+    <!-- </section> -->
+
+
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <a href="https://www.instagram.com/foxcominnesota/" target="_blank">
+                <img src ="stock pics/insta-real.jpg" class="footer-link">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
